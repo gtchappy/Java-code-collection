@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * ClassName: StringConcat
- * Package: 合并字符串
+ * Package: 合并字符串.
  * Description:
  *
  * @Author gtc
