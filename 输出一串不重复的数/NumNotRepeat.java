@@ -2,7 +2,7 @@ package 输出一串不重复的数;
 
 /**
  * ClassName: Numnotrepeat
- * Package: 输出一串不重复的数
+ * Package: 输出一串不重复的数.
  * Description:
  *
  * @Author gtc
