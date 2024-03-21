@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 /**
  * ClassName: StringConcat
  * Description:
@@ -25,16 +24,16 @@ public class StringConcat {
     /**
      * 使用指定的运算符将多个字符串连接成一个新的字符串。
      * @param operator 连接字符串时使用的运算符。
-     * @param strs 要连接的字符串数组。
+     * @param str 要连接的字符串数组。
      * @return 连接后的字符串结果。
      */
-    public String concat(String operator, Object... strs) {
+    public String concat(String operator, Object... str) {
         StringBuilder result = new StringBuilder();
-        for (int i = 0; i < strs.length; i++) {
+        for (int i = 0; i < str.length; i++) {
             if (i == 0) {
-                result.append(strs[i]);
+                result.append(str[i]);
             } else {
-                result.append(operator).append(strs[i]);
+                result.append(operator).append(str[i]);
             }
         }
         return result.toString();

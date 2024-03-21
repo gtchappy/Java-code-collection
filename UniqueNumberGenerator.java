@@ -1,13 +1,12 @@
 /**
- * ClassName: Numnotrepeat
- * Package: 输出一串不重复的数.
+ * ClassName: UniqueNumberGenerator
  * Description:
  *
  * @Author gtc
  * @Create 2024/3/20 2:01
  * @Version 1.0
  */
-public class NumNotRepeat {
+public class UniqueNumberGenerator {
     public static void main(String[] args) {
         //待生成10个数字
         int[] arr = new int[10];
