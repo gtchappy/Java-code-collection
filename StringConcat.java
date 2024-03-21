@@ -1,10 +1,7 @@
-package 合并字符串;
-
 import java.util.Scanner;
 
 /**
  * ClassName: StringConcat
- * Package: 合并字符串.
  * Description:
  *
  * @Author gtc
@@ -32,14 +29,14 @@ public class StringConcat {
      * @return 连接后的字符串结果。
      */
     public String concat(String operator, Object... strs) {
-        String result = "";
+        StringBuilder result = new StringBuilder();
         for (int i = 0; i < strs.length; i++) {
             if (i == 0) {
-                result += strs[i];
+                result.append(strs[i]);
             } else {
-                result += (operator + strs[i]);
+                result.append(operator).append(strs[i]);
             }
         }
-        return result;
+        return result.toString();
     }
 }
